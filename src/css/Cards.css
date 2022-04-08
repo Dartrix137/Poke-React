@@ -6,13 +6,12 @@
     overflow-y: scroll;
 }
 
-.cover{
-    height: 100vh;
+.container{
     background: rgb(2,0,36);
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(10,70,163,0.9976365546218487) 75%, rgba(0,212,255,1) 100%);
     background-color: rgba(0, 0, 0, 0.6);
     background-blend-mode: darken;
     text-align:center;
     z-index: 0;
-    overflow-y: hidden;
+    
 }

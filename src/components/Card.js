@@ -4,7 +4,7 @@ const Card = ({pokemon, id}) => {
     if (pokemon.id < id) {
         return (
             <div className="card">
-                <img src={pokemon.sprites.other.dream_world.front_default} alt="" />
+                <img src={pokemon.sprites.other.dream_world.front_default} alt={pokemon.id} height='400'/>
                 <div className="card-body">
                     <h4 className="card-title">{pokemon.name}</h4>
                     <p className="card-text-secondary" key={pokemon.id}>{pokemon.id}</p> 
